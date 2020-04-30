@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <title>My_page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light navbar-expand-sm fixed-top menu">
+            <div class="container ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#">Главная</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tableid">Результаты</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#film-text">Фильмы</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#threewordsid">Вкратце</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#emotionsid">Эмоции</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#home">Ареал</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#quoteid">Цитата</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#threedid">3D</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <ul class="navbar-nav mr-auto flex-row">
+                            <button id="light" onclick="lightMode()"></button>
+                            <button id="dark" onclick="darkMode()"></button>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <article id="Me"></article>
+            <div class="container">
+                <div class="row align-items-center justify-content-center ">
+                    <div class="col-12 col-sm-5 ustify-content-end order-sm-last" id="myphoto">
+                        <img src="img/Me1.png" class="img-fluid" alt="Kirill Holotenko">
+                    </div>
+                    <div class="col-12 col-sm-7 order-sm-first">
+                        <h1 class="text-center  text-sm-left">Голотенко <br> Кирилл</h1>
+                        <div class="col-12 col-sm-10 text-center text-sm-left">
+                            <a href="https://www.youtube.com/watch?v=H2geujQfQhI&t=4s" role="button" class="btn portfolio  ">Просмотреть последнюю работу</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="tableid">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-sm-12">
+                        <h2 class="text-center">Результаты прошлого семестра</h2>
+                        <div class="table-responsive ">
+                            <table class=" table text-center " id="table1">
+                                <tr>
+                                    <th id="number">№</th>
+                                    <th>Название предмета</th>
+                                    <th>Преподаватель</th>
+                                    <th colspan="3" id="mark">Оценка</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Основы граф. комп.</td>
+                                    <td>Глибко Е. А.</td>
+                                    <td>отлично</td>
+                                    <td>100</td>
+                                    <td>А</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Нарчерт. геом.</td>
+                                    <td>Федченко А. В.</td>
+                                    <td>отлично</td>
+                                    <td>90</td>
+                                    <td>A</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Арх. вычисл. сист.</td>
+                                    <td>Ломакин А. Н.</td>
+                                    <td>отлично</td>
+                                    <td>98</td>
+                                    <td>A</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Дискретная мат.</td>
+                                    <td>Татаринова О. А.</td>
+                                    <td>отлично</td>
+                                    <td>99</td>
+                                    <td>A</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Английский</td>
+                                    <td>Вракина. В. В.</td>
+                                    <td>отлично</td>
+                                    <td>100</td>
+                                    <td>A</td>
+                                </tr>
+                                <tr>
+                                    <td>6</td>
+                                    <td>Физ. воспитание</td>
+                                    <td>Дегтярева И. В.</td>
+                                    <td>отлично</td>
+                                    <td>100</td>
+                                    <td>A</td>
+                                </tr>
+                                <tr>
+                                    <td>7</td>
+                                    <td>Правоведение</td>
+                                    <td>Семко М. А.</td>
+                                    <td>отлично</td>
+                                    <td>100</td>
+                                    <td>A</td>
+                                </tr>
+                                <tr>
+                                    <td id="eight">8</td>
+                                    <td>ООП</td>
+                                    <td>Водка А. А.</td>
+                                    <td>отлично</td>
+                                    <td>91</td>
+                                    <td id="A">A</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="#filmscontainer">
+            <div class="container  ">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center" id="film-text">Классика и то, что ею станет</h2>
+                    </div>
+                </div>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="col-12 col-sm-10 offset-sm-1 carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/1917.jpg" class="d-block w-100" alt="1917">
+                            <div class="col-12 col-sm text-center">
+                                <a href="https://www.ivi.ru/watch/221615" role="button" class="btn film">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Bohemian Rapsody.jpg" class="d-block  w-100" alt="Bohemian Rapsody">
+                            <div class="col-12 col-sm text-center">
+                                <a href="https://www.ivi.ru/watch/146388" role="button" class="btn film">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/La la land.jpg" class="d-block  w-100" alt="La la land">
+                            <div class="col-12 col-sm text-center">
+                                <a href="https://www.ivi.ru/watch/136478" role="button" class="btn film">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Sherlock.jpg" class="d-block w-100" alt="Sherlock">
+                            <div class="col-12 col-sm text-center">
+                                <a href="https://www.ivi.ru/watch/sherlok" role="button" class="btn film">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/True detective.jpg" class="d-block w-100" alt="True detective">
+                            <div class="col-12 col-sm text-center">
+                                <a href="https://megogo.net/ru/view/3657981-nastoyashchiy-detektiv-sezon-1.html?video_view_tab=description" role="button" class="btn film">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid position-absolute" id="bgfilms"></div>
+        </article>
+        <article id="threewordsid">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-sm-12">
+                        <h2 class="text-center">Если вкратце, то я это...</h2>
+                        <div class="row align-items-center round-container">
+                            <div class="col-2 col-sm-2">
+                                <div class="round"></div>
+                            </div>
+                            <div class="col-8 col-sm-8">
+                                <p class="text-left three-words">Семья</p>
+                            </div>
+                            <div class="col-2 col-sm-2">
+                                <div class="round"></div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center round-container">
+                            <div class="col-2 col-sm-2">
+                                <div class="round"></div>
+                            </div>
+                            <div class="col-8 col-sm-8">
+                                <p class="text-right  three-words">Друзья</p>
+                            </div>
+                            <div class="col-2 col-sm-2">
+                                <div class="round"></div>
+                            </div>
+                        </div>
+                        <div class="row align-items-center round-container">
+                            <div class="col-2 col-sm-2">
+                                <div class="round"></div>
+                            </div>
+                            <div class="col-8 col-sm-8">
+                                <p class="text-left three-words">Работа</p>
+                            </div>
+                            <div class="col-2 col-sm-2">
+                                <div class="round"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col col-sm-10">
+                        <p class="text-center text-sm-left  explanation" id="family">Семья – описывает меня как личность.</p>
+                        <p class="text-center text-sm-left  explanation" id="friends">Друзья – расскрывают мой характер. </p>
+                        <p class="text-center text-sm-left  explanation" id="job">Работа – показывает чего я стою и к чему стремлюсь.</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="emotionsid">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center">Спектр эмоций</h2>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-12 col-sm-4 ">
+                        <div class="h3container mx-auto">
+                            <h3 class="text-center">Радость</h3>
+                        </div>
+                        <img src="img/See-right.jpg" class="img-fluid see" alt="Kirill">
+                    </div>
+                    <div class="col-12 col-sm-4 ">
+                        <div class="h3container mx-auto">
+                            <h3 class="text-center">Грусть</h3>
+                        </div>
+                        <img src="img/See.JPG" class="img-fluid see" alt="Kirill">
+                    </div>
+                    <div class="col-12 col-sm-4 ">
+                        <div class="h3container mx-auto">
+                            <h3 class="text-center ">On Air</h3>
+                        </div>
+                        <img src="img/See-left.JPG" class="img-fluid see" alt="Kirill">
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center">Ареал обитания</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-sm">
+                        <p class="text-center text-sm-left  explanation" id="revolution">До революции Дом культуры «Металлист» был самым большим <b>в мире </b>рабочим клубом.</p>
+                        <p class="text-center text-sm-left  explanation" id="metal">«Металлист» — центральный стадион города.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-sm-12">
+                        <div id="paral"></div>
+                    </div>
+                </div>
+                <div class="container ">
+                    <div class="row align-items-center justify-content-center stadiumcont">
+                        <div class="col-12 col-sm-12 " id="stadium">
+                            <div class="row ">
+                                <div class="col-12 col-sm-10 offset-sm-1">
+                                    <a href=""><img src="img/map.jpg" alt="map" class="img-fluid" id="map">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid position-absolute" id="bgstadium"></div>
+        </article>
+        <article id="quoteid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center  timefor" id="itstime">Время любимой цитаты</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-10 offset-sm-1">
+                        <p class="text-center" id="quote">“Цитирование – отсутсвие
+                            собственных мыслей”</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-sm-6 offset-sm-3 ">
+                        <p class="text-right" id="unfortunately">Увы, источник утерян</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="threedid">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center">Немного 3D</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="wrap">
+                            <div class="cube">
+                                <div class="front">
+                                </div>
+                                <div class="back">
+                                </div>
+                                <div class="top">
+                                </div>
+                                <div class="bottom">
+                                </div>
+                                <div class="left">
+                                </div>
+                                <div class="right">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 offset-sm-3">
+                        <p class="text-center timefor" id="connect">Будем на связи</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-sm-10 offset-sm-1">
+                        <div id="mailbox" class="mx-auto">
+                            <p class="text-center maillink"><a id="maillink" href="mailto:kirya.golotenko@gmail.com">Kirya.golotenko@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar  navbar-expand-sm menufooter">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item text-center footer-text"><a class="nav-link" href="#">Главная</a></li>
+                        <li class="nav-item text-center footer-text"><a class="nav-link" href="#tableid">Результаты</a></li>
+                        <li class="nav-item text-center footer-text"><a class="nav-link" href="#film-text">Фильмы</a></li>
+                        <li class="nav-item text-center footer-text"><a class="nav-link" href="#threewordsid">Вкратце</a></li>
+                        <li class="nav-item text-center footer-text"><a class="nav-link" href="#emotionsid">Эмоции</a></li>
+                        <li class="nav-item text-center footer-text"><a class="nav-link" href="#home">Ареал</a></li>
+                        <li class="nav-item text-center footer-text"><a class="nav-link" href="#quoteid">Цитата</a></li>
+                        <li class="nav-item text-center footer-text"><a class="nav-link" href="#threedid">3D</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+            <article id="footer"></article>
+        </footer>
+    </main>
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../javaskript.js"></script>
+</body>
+
+</html>
