@@ -7,21 +7,158 @@ html{
 .navbar {
     background: #fff;
 }
+.navbar-toggler-icon{
+    border:none;
+}
 .nav-link{
     color: #626262;
 }
+
+@font-face {
+    font-family: 'Noah Text';
+    src: url('../fonts/NoahText-Light.eot');
+    src: url('../fonts/Noah Text Light'), local('NoahText-Light'),
+        url('../fonts/NoahText-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoahText-Light.woff2') format('woff2'),
+        url('../fonts/NoahText-Light.woff') format('woff'),
+        url('../fonts/NoahText-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Noah Text';
+    src: url('../fonts/NoahText-Heavy.eot');
+    src: url('../fonts/Noah Text Heavy'), local('NoahText-Heavy'),
+        url('../fonts/NoahText-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoahText-Heavy.woff2') format('woff2'),
+        url('../fonts/NoahText-Heavy.woff') format('woff'),
+        url('../fonts/NoahText-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Noah Text';
+    src: url('../fonts/NoahText-UltraLight.eot');
+    src: url('../fonts/Noah Text UltraLight'), local('NoahText-UltraLight'),
+        url('../fonts/NoahText-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoahText-UltraLight.woff2') format('woff2'),
+        url('../fonts/NoahText-UltraLight.woff') format('woff'),
+        url('../fonts/NoahText-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Noah Text';
+    src: url('../fonts/NoahText-Thin.eot');
+    src: url('../fonts/Noah Text Thin'), local('NoahText-Thin'),
+        url('../fonts/NoahText-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoahText-Thin.woff2') format('woff2'),
+        url('../fonts/NoahText-Thin.woff') format('woff'),
+        url('../fonts/NoahText-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+
+
+@font-face {
+    font-family: 'Noah Text';
+    src: url('../fonts/NoahText-Medium.eot');
+    src: url('../fonts/Noah Text Medium'), local('NoahText-Medium'),
+        url('../fonts/NoahText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoahText-Medium.woff2') format('woff2'),
+        url('../fonts/NoahText-Medium.woff') format('woff'),
+        url('../fonts/NoahText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Noah Text';
+    src: url('../fonts/NoahText-Regular.eot');
+    src: url('../fonts/Noah Text Regular'), local('NoahText-Regular'),
+        url('../fonts/NoahText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoahText-Regular.woff2') format('woff2'),
+        url('../fonts/NoahText-Regular.woff') format('woff'),
+        url('../fonts/NoahText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+@font-face {
+    font-family: 'Noah Text';
+    src: url('../fonts/NoahText-ExtraBold.eot');
+    src: url('../fonts/Noah Text ExtraBold'), local('NoahText-ExtraBold'),
+        url('../fonts/NoahText-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoahText-ExtraBold.woff2') format('woff2'),
+        url('../fonts/NoahText-ExtraBold.woff') format('woff'),
+        url('../fonts/NoahText-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noah Text';
+    src: url('../fonts/NoahText-Black.eot');
+    src: url('../fonts/Noah Text Black'), local('NoahText-Black'),
+        url('../fonts/NoahText-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoahText-Black.woff2') format('woff2'),
+        url('../fonts/NoahText-Black.woff') format('woff'),
+        url('../fonts/NoahText-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Noah Text';
+    src: url('../fonts/NoahText-Bold.eot');
+    src: url('../fonts/Noah Text Bold'), local('NoahText-Bold'),
+        url('../fonts/NoahText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NoahText-Bold.woff2') format('woff2'),
+        url('../fonts/NoahText-Bold.woff') format('woff'),
+        url('../fonts/NoahText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+
+
 #dark{
-	width: 24px;
-	height: 24px;
-	border-radius: 100%;
+	width: 32px;
+	height: 32px;
+
+	-webkit-border-radius: 80px;
+	-moz-border-radius: 80px;
+	border-radius: 80px;
 	border:none;
+	-webkit-background: linear-gradient(284.21deg, #149FDB 0%, #185BA4 31.86%, #1E57AD 51.04%, #1861A9 64.02%, #13A0DC 100%);
 	background: linear-gradient(284.21deg, #149FDB 0%, #185BA4 31.86%, #1E57AD 51.04%, #1861A9 64.02%, #13A0DC 100%);
 }
 #light{
-	width: 24px;
-	height: 24px;
-	border-radius: 100%;
+	width: 32px;
+	height: 32px;
+
+	-webkit-border-radius: 80px;
+	-moz-border-radius: 80px;
+	border-radius: 80px;
 	border:none;
+	-webkit-background: linear-gradient(295.65deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
 	background: linear-gradient(295.65deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
 	margin-right: 16px;
 }
@@ -71,7 +208,7 @@ html{
 
 body {
     padding: 56px 0px 0px 0px;
-	font-family: Noah Text;
+	font-family: "Noah Text";
 }
 p{
 	color:#626262;
@@ -111,6 +248,7 @@ h2 {
     background: -webkit-linear-gradient(339.81deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
     background: -o-linear-gradient(339.81deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
     background: -moz-linear-gradient(339.81deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
+    -webkit-background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -ms-background-clip: text;
@@ -194,7 +332,6 @@ h2 {
 
 #bgfilms{
 	background: linear-gradient(295.65deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
-    z-index: 0;
     width: 100vw;
     height: 50vh;
     transform: skew(0, -8deg) translate(0, -48vh);
@@ -233,8 +370,6 @@ h2 {
 		transform: skew(0, -8deg) translate(0, -107vh);
 	}
 }
-
-
 
 #table1 th,
 td {
@@ -290,11 +425,6 @@ table {
     border-collapse: separate;
 }
 
-
-/*.carousel-item img{
-	height: 40vh;
-	width: auto;
-}*/
 .three-words {
     font-family: Noah Text;
     font-size: 12rem;
@@ -303,7 +433,6 @@ table {
     background: -webkit-linear-gradient(339.81deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
     background: -o-linear-gradient(339.81deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
     background: -moz-linear-gradient(339.81deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
-    background: linear-gradient(339.81deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -ms-background-clip: text;
@@ -388,26 +517,48 @@ h3 {
 }
 
 
-
-
 #bgstadium{
 	background: linear-gradient(295.65deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
     width: 100vw;
-    height: 40vh;
-    transform: skew(0, -8deg) translate(0, -49vh);
+    height: 28vh;
+    transform: skew(0, -8deg) translate(0, -20vh);
     z-index: -1;
 }
-@media (max-width: 375px){
-	#map{
-		transform: skew(0, -8deg) translate(0, -50vh);
+@media (min-width:375px){
+	#bgstadium{
+		transform: skew(0, -8deg) translate(0, -30vh);
+		height: 28vh;
 	}
 }
+@media (min-width: 576px){
+	#bgstadium{
+		transform: skew(0, -8deg) translate(0, -20vh);
+		 height: 20vh;
+	}
+}@media (min-width: 768px){
+	#bgstadium{
+		transform: skew(0, -8deg) translate(0, -30vh);
+		 height: 32vh;
+	}
+}@media (min-width: 991px){
+	#bgstadium{
+		transform: skew(0, -8deg) translate(0, -36vh);
+		
+	}
+}
+@media (min-width: 1200px){
+	#bgstadium{
+		transform: skew(0, -8deg) translate(0, -50vh);
+		height: 40vh;
+	}
+}
+
+
 
 .timefor{
 	margin-top: 200px;
 	font-size: 4.5rem;
 	font-weight: 100;
-    transform: translate(0, -20vh);
 
 }
 @media (max-width:1200px) {
@@ -473,7 +624,6 @@ h3 {
     background-clip: content-box, border-box;
     margin-bottom: 20px;
     transition: background-image 2s;
-    transform: translate(0, -20vh);
 }
 #mailbox:hover {
 	background-image: linear-gradient(transparent, transparent),
@@ -519,7 +669,6 @@ h3 {
   margin-top: 150px;
   perspective: 1000px;
   perspective-origin: 50% 50%;
-  margin-bottom: 300px;
 }
 .cube {
   margin: auto;
@@ -619,19 +768,14 @@ h3 {
 }
 
 
-.footer1{
-    background: url(../img/footerincolor.svg) no-repeat;
-    background-size: cover;
-    background-position: bottom;
-
+#footer {
+    background: linear-gradient(295.65deg, #8E43FA 0%, #F3608B 51.56%, #FFA807 100%);
+    z-index: -1;
+    width: 100vw;
+    height: 5vh;
     
-    
-
+	
 }
-/*#footer{
-    max-width: 100%;
-  height: auto;
-}*/
 
 .menufooter{
 	background:none;
